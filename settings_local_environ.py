@@ -1,7 +1,7 @@
 import os
 
 # connection string for your mongodb instance.
-os.environ['MONGODB_URL'] = "mongodb://heroku:5_Ccqy27rFkd1wESPlE_AqfYIimcobdoieztdZkd6srOEZTOXbVfgdnYcjmeZjoOmQcHslAhoX3AuOZ30QBxDw@oceanic.mongohq.com:10065"
+os.environ['MONGODB_URL'] = "mongodb://heroku:5_Ccqy27rFkd1wESPlE_AqfYIimcobdoieztdZkd6srOEZTOXbVfgdnYcjmeZjoOmQcHslAhoX3AuOZ30QBxDw@oceanic.mongohq.com:10065/app23110495"
 os.environ['DB_NAME'] = "app23110495"
 
 # Environment -- use "dev" for local development; "test" for staging, "prod" for production
