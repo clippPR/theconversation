@@ -13,7 +13,6 @@ class Auth(app.basic.BaseHandler):
     consumer_key = settings.get('twitter_consumer_key')
     consumer_secret = settings.get('twitter_consumer_secret')
     callback_host = 'http://%s/twitter' % self.request.headers['host']
-    print consumer_key, consumer_secret, callback_host
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret, callback_host, secure=True)
     auth_url = auth.get_authorization_url(True)
     self.set_secure_cookie("request_token_key", auth.request_token.key)
