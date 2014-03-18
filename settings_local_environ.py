@@ -19,3 +19,12 @@ os.environ['TWITTER_CONSUMER_SECRET'] = "sh0Dq9T51UeBfBVndeIW0suzNvkq4MlPYkBZ1gw
 
 os.environ['SENDGRID_USER'] = "cmty"
 os.environ['SENDGRID_SECRET'] = "3CzFHb7kCsK7coKC"
+
+os.environ['STAFF'] = "thomasknoll"
+
+
+os.environ['hackpad_oauth_client_id'] = "xphCPr5MVyn"
+os.environ['hackpad_oauth_secret'] = "4xst6dOoENfxqPJ4K6bwfMAAndzRm5Ma"
+os.environ['hackpad_domain'] = "primeloopcmty.hackpad.com"
+
+os.environ['bitly_access_token'] = "c121619a06a01946ee3e3936207a29f485d960eb"
