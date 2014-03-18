@@ -33,8 +33,8 @@ options = {
 
 default_options = {
   'active_theme': "default",
-  'site_title': "The Conversation",
-  'site_intro': "This is a website where people talk",
+  'site_title': "Primeloop - Bringing the Personal Relationships back into Business",
+  'site_intro': "The Watercooler for the Primeloop Communicty",
   
   'project_root': os.path.abspath(os.path.join(os.path.dirname(__file__))),
 
@@ -69,7 +69,7 @@ default_options = {
   'read_only' : False,
   'max_simultaneous_connections' : 10,
   'hot_post_set_count': 200,
-  'staff':[ 'nickgrossman'],
+  'staff':[ ''],
 
   # define the various roles and what capabilities they support
   'staff_capabilities': [
@@ -113,4 +113,3 @@ def get(key):
     return v
 
   return default_options.get(key)
-
